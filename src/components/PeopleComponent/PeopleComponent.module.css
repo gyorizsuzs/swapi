@@ -1,6 +1,6 @@
 .PeopleComponent .characters {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 5px;

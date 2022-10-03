@@ -27,7 +27,7 @@ const Person = (props) => {
     });
 
     return () => {
-      controllers.forEach((controller) => controller).abort();
+      controllers.forEach((controller) => controller.abort());
     };
   }, []);
 
